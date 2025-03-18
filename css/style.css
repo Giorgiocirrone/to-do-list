@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+h2 {
+ margin-left: 20px;
+ margin-top: 10px;
+}
+
+
+#btn-toolset {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #0063CC;
+    border-radius: 8px;
+    padding: 2px 6px;
+    border: 2px solid #006FE6;
+    cursor: pointer;
+}
+
+
+#btn-toolset:hover {
+    background-color: #007BFF;
+    border-color: #0056B3;
+}
+
+#btn-toolset>strong {
+    font-size: 24px;
+}
+
+
+/*
+.display-flex {
+    display: flex;
+
+
+}  */
+
+
+#container-todo-list {
+
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    border: 2px dashed red;
+    margin: 0 auto;
+    width: 450px ;
+    border-radius: 5%;
+
+}
+
+#todoForm {
+
+    width:  100%;
+}
+
+
+#todoList {
+
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+
+}
+
+
+li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: auto;
+    /* Adatta la larghezza al contenuto */
+    min-width: 100%;
+    /* Evita che sia troppo piccolo */
+   
+
+}
+
+button{
+
+ 
+    line-height: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius:50% ;
+    background-color: transparent;
+    border: #FFFFFF;
+}
+
+
+.spaziatore {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-top: 20px;
+    align-items: center;
+}
