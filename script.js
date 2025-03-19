@@ -26,7 +26,7 @@ todoForm.addEventListener('submit', (event) => {
 
 
 
-    const todoBtnDone = document.createElement('button');
+    const todoBtnDone = document.createElement('span');
     todoBtnDone.textContent = 'X';
     todoBtnDone.addEventListener('click', () => {
         todoItem.remove();
